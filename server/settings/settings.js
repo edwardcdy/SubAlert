@@ -4,7 +4,8 @@ var bodyParser  = require('body-parser');
 var mongoose    = require('mongoose');
 
 var app = module.exports = express();
-mongoose.connect('mongodb://localhost:27017');
+
+mongoose.connect('mongodb://heroku_b34psj7q:heroku_b34psj7q@ds157040.mlab.com:57040/heroku_b34psj7q'); //mongodb://localhost:27017
 
 // Lets us get information from post requests
 app.use(bodyParser.urlencoded({extended:true}));
