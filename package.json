@@ -1,0 +1,27 @@
+{
+  "name": "textube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "clockwork": "^0.1.4",
+    "express": "^4.14.0",
+    "express-jwt": "^5.1.0",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.7.5",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "repeat": "0.0.6",
+    "request": "^2.81.0",
+    "twilio": "^2.11.1"
+  }
+}

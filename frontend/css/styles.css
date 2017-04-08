@@ -1,0 +1,34 @@
+.banner {
+  padding: 10% 0 0 0;
+}
+
+body{
+  font-family: 'Open Sans';
+  color: white;
+  background-image: url("../pictures/bkgrnd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vert-center {
+  padding: 70vh 0;
+
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+}
+
+.hand {
+   cursor: pointer; 
+   cursor: hand;
+}
+
+.green {
+  color: greenyellow;
+}
+
+.red {
+  color: red;
+}
