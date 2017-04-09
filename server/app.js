@@ -10,8 +10,6 @@ var settings    = require('./settings/settings');
 var routes      = require('./routes/routes');
 var check       = require('./check');
 
-
-
 // External variables and addresses
 var port        = process.env.PORT || 8080;
 
@@ -20,7 +18,6 @@ var port        = process.env.PORT || 8080;
 
 // static frontend
 app.use(express.static('frontend'));
-
 
 // Everything under our apiRouter is accessed at /api
 app.use('/api',apiRouter);
