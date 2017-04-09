@@ -5,7 +5,7 @@
 body{
   font-family: 'Open Sans';
   color: white;
-  background-image: url("../pictures/bkgrnd.jpg");
+  background-image: url("../pictures/bkgrnd.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
